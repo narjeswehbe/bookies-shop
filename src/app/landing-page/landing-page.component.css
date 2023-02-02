@@ -1,0 +1,107 @@
+*{
+
+  font-family: 'Poppins' , 'sans-serif';
+ 
+}
+#hero{
+background-color: #F5F3FF;
+height: 28rem;
+gap:0px;
+display: flex;
+flex-direction: row;
+
+}
+.hero-img{
+  margin-top: 5rem; 
+  z-index: 2;
+ 
+  
+}
+.search-bar{
+  flex-basis:100%;
+  outline:none;
+  border: none;
+  padding: 0.5rem;
+  border-radius:3rem;
+  padding-left: 1.5rem;
+ 
+
+}
+input::placeholder{
+  color:rgb(113, 113, 122,0.5);
+
+}
+.search-container{
+  border-style: none;
+  border-radius:3rem;
+  border-color: white;
+  background-color:white;
+  display: flex;
+  height: 4.5rem;
+  width:75%;
+  justify-content: space-between;
+ 
+
+}
+.search-btn{
+  background-color:#5B21B6;
+  color:white;
+  border:none;
+  border-radius: 2rem;
+  flex-basis: 30%;
+  margin:0.3rem;
+  font-weight: 100;
+  padding: 0.5rem;
+ 
+}
+
+
+.headline{
+  margin-top:3rem; 
+}
+.title{
+  color:#111827;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 125%;
+  letter-spacing: -1px;
+ 
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  gap:2.5rem;
+  width:800px;
+  flex-basis: auto;
+  margin-left:-3rem;
+  z-index: 1;
+ 
+}
+#best-selling{
+  display: flex;
+  flex-direction: column;
+  gap:0.5rem;
+  align-items: center;
+  margin-top:2rem;
+  
+}
+.headline-best-seller{
+  text-transform: uppercase;
+  color:#5B21B6;
+  font-weight: 1000 ;
+  font-size: 2.5rem;
+  padding:0.5rem;
+
+}
+  .view-more-btn{
+    background-color:#5B21B6;
+    color:white;
+    border:none;
+    border-radius: 2rem;
+    margin:0.3rem;
+    font-weight: 100;
+    padding: 1.2rem;
+  }
+  .card-list{
+    display:flex
+  }
